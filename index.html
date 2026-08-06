@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Praveena Kumar — Senior Software Engineer specialising in secure, high-performance systems." />
+    <title>Praveena Kumar | Senior Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="experience.css" />
+  </head>
+  <body>
+    <header class="nav-wrap">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#home">Praveen Simpi<span>.</span></a>
+        <div class="nav-links"><a href="#expertise">Expertise</a><a href="#experience">Experience</a><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+        <a class="nav-cta" href="#contact">Hire me <span>→</span></a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="availability"><i></i> Available for opportunities</p>
+          <p class="kicker">Senior Software Engineer · Bengaluru, India</p>
+          <h1>Hi, I’m<br /><span>Praveen Simpi.</span></h1>
+          <p class="hero-text">I work as a software developer, focusing on authentication, networking, and automation solutions for enterprise platforms, specializing in C++, Python, and Linux.</p>
+          <div class="hero-actions"><a class="button primary" href="#work">View my work <span>→</span></a><a class="button text-button" href="#contact">Get in touch <span>↗</span></a></div>
+          <div class="stats"><div><b>8<span>+</span></b><p>Years experience</p></div><div><b>3<span>+</span></b><p>Networking Layers (L3,L4 and HTTP)</p></div><div><b>6+</b><p>Authentication protocols</p></div></div>
+        </div>
+        <div class="hero-visual" aria-label="Illustration of secure software architecture">
+          <div class="grid-lines"></div><div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="terminal"><div class="terminal-top"><span></span><span></span><span></span><em>secure-system</em></div><code><b>01</b> auth.request()<br /><b>02</b> <strong>verify</strong>(credentials)<br /><b>03</b> policy.evaluate()<br /><b>04</b> <strong>allow</strong> → session.active</code><div class="terminal-status"><i></i> All systems operational</div></div>
+          <div class="security-badge">✓<small>Secure<br />by design</small></div>
+        </div>
+      </section>
+
+      <section class="section container" id="expertise">
+        <div class="section-heading"><p class="kicker">What I do</p><h2>Engineering built for<br /><span>the real world.</span></h2></div>
+        <div class="expertise-grid">
+          <article><span class="number">01</span><h3>Authentication & security</h3><p>Enterprise authentication flows built with OAuth 2.0, LDAP, Kerberos, SAML, TACACS+, RADIUS, SSO, WAF, and reCAPTCHA.</p><span class="card-arrow">↗</span></article>
+          <article><span class="number">02</span><h3>Systems & networking</h3><p>High-performance software on Linux and FreeBSD, with C/C++, multithreading, TCP/IP, IPsec, DPDK, and HTTP/HTTPS.</p><span class="card-arrow">↗</span></article>
+          <article><span class="number">03</span><h3>Automation & quality</h3><p>Robust Python automation and regression coverage using Jenkins, K6, Scapy, SWIG, and disciplined root-cause analysis.</p><span class="card-arrow">↗</span></article>
+        </div>
+      </section>
+
+      <section class="section experience-section container" id="experience">
+        <div class="section-heading"><p class="kicker">Career</p><h2>Experience that ships<br /><span>at scale.</span></h2></div>
+        <div class="timeline">
+          <article class="experience-card"><div class="experience-date"><span>Nov 2021 — Present</span><span class="timeline-dot"></span></div><div class="experience-main"><p class="company"> Citrix Systems<span>(Cloud Software Group)</span></p><h3>Senior Software Engineer</h3><p class="team">Authentication, Authorization & Accounting (AAA) · SD-WAN</p><ul><li>Delivered Google reCAPTCHA v3 integration for Citrix ADC authentication with adaptive risk-based verification.</li><li>Built security-score evaluation and mock-response validation for negative and edge-case scenarios.</li><li>Enhanced Citrix ADC WAF validation for query parameters, POST bodies, and cookies.</li><li>Developed Python endpoint automation and supported Jenkins regression and K6 performance testing.</li><li>Worked on DHCP, Layer-4 networking, IPsec hardware encryption, and C++ packet processing.</li><li>Resolved 50+ customer-reported authentication and security issues with production-quality fixes.</li></ul></div></article>
+          <article class="experience-card"><div class="experience-date"><span>Jul 2017 — Nov 2021</span><span class="timeline-dot"></span></div><div class="experience-main"><p class="company">Nokia Solutions and Networks</p><h3>Software Engineer</h3><p class="team">5G Transport & Radio Platforms</p><ul><li>Designed a two-level IPQoS scheduler for Nokia’s 5G transport platform using Intel DPDK.</li><li>Built scheduling, queue management, and packet policing based on DSCP and source-IP classification.</li><li>Developed IPv6 FastPath components with Intel ADK and DPDK: routing, fragmentation, and reassembly.</li><li>Created Python automation using SWIG, Scapy, and Pexpect to validate native C libraries.</li><li>Delivered Linux permissions and DHCP-based IP allocation services for Nokia radio systems.</li><li>Improved quality through Coverity fixes, test coverage, and 4G/5G cross-functional delivery.</li></ul></div></article>
+          <article class="experience-card internship-card"><div class="experience-date"><span>Jan 2017 — Jul 2017</span><span class="timeline-dot"></span></div><div class="experience-main"><p class="company">Nokia Solutions and Networks</p><h3>Software Engineering Intern</h3><p class="team">IMS Department · Bengaluru</p><ul><li>Worked in a Python Anaconda environment to analyse resolved-bug inputs and classify them as firmware defects or software fixes.</li><li>Improved input handling and fine-tuned learning results for the bug-analysis workflow.</li><li>Contributed C issue fixes identified through Coverity static analysis.</li></ul></div></article>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work">
+        <div class="container"><div class="section-heading row-heading"><div><p class="kicker">Portfolio</p><h2>Selected <span>work.</span></h2></div><a class="text-button" href="#contact">Let’s work together <span>→</span></a></div>
+          <div class="work-grid">
+            <article class="work-card feature-card"><div class="work-art protocol-art"><img src="assets/network-security-illustration.png" alt="Abstract illustration of a secure network system" /><span class="art-pill">AUTHENTICATION · NETWORKING</span></div><div class="work-detail"><p class="tags">SAML · OAuth 2.0 · Kerberos · LDAP</p><h3>Enterprise authentication protocols at scale</h3><p>Built secure Citrix ADC authentication flows across SAML, OAuth 2.0, Kerberos, LDAP, TACACS+, RADIUS, and Single Sign-On.</p><a href="#contact">Discuss this expertise <span>→</span></a></div></article>
+            <article class="work-card"><div class="work-art automation-art"><span class="art-pill">5G NETWORKING</span><div class="chart"><i></i><i></i><i></i><i></i><i></i><b>DPDK<br />packet flow</b></div></div><div class="work-detail"><p class="tags">DPDK · IPQoS · IPv6 · C++</p><h3>High-performance 5G packet processing</h3><p>Designed IPQoS scheduling, traffic shaping, and IPv6 FastPath components for Nokia’s 5G transport platform.</p><a href="#contact">Discuss this expertise <span>→</span></a></div></article>
+            <article class="work-card"><div class="work-art waf-art"><span class="art-pill">WEB SECURITY</span><div class="shield">⌁<small>WAF</small></div><div class="data-lines"><i></i><i></i><i></i></div></div><div class="work-detail"><p class="tags">WAF · Debugging · Production support</p><h3>Production-ready security enhancements</h3><p>Strengthened WAF validation for query parameters, POST bodies, and cookies while resolving 50+ security issues.</p><a href="#contact">Discuss this expertise <span>→</span></a></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section container" id="about">
+        <div class="about-art"><span>PK</span><div class="about-ring"></div><p>Software engineer<br />since 2017</p></div>
+        <div class="about-copy"><p class="kicker">About me</p><h2>Built on curiosity,<br /><span>backed by craft.</span></h2><p>I am a Senior Software Engineer at Cloud Software Group (Citrix), focused on authentication, authorization, and accounting features for Citrix ADC (NetScaler). I enjoy translating complex security and networking requirements into dependable software.</p><p>My day-to-day work spans feature delivery, production support, debugging, and performance optimization. Outside work, you’ll find me trekking, biking, or reading a good book.</p><div class="stack"><p>Stack & tools</p><span>C / C++</span><span>Python</span><span>Linux</span><span>Citrix ADC</span><span>OAuth 2.0</span><span>Jenkins</span><span>Git</span></div></div>
+      </section>
+
+      <section class="education-section container"><p class="kicker">Education</p><div><h2>Bachelor of Engineering</h2><p>Electronics and Communication Engineering</p></div><div class="education-meta"><p>The National Institute of Engineering, Mysore</p><span>CGPA 8.30 / 10</span></div></section>
+
+      <section class="contact" id="contact"><div class="container contact-inner"><p class="kicker">Get in touch</p><h2>Let’s build something<br /><span>reliable.</span></h2><p>I’m open to senior software engineering opportunities in networking, security, systems programming, and automation.</p><div class="contact-links"><a class="email" href="mailto:praveensimpi@gmail.com">praveensimpi@gmail.com <span>↗</span></a><a href="https://www.linkedin.com/in/praveensimpi" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="tel:+919611959360">+91 96119 59360</a></div></div></section>
+    </main>
+    <footer class="container"><p>© 2026 Praveena Kumar. All rights reserved.</p><a href="#home">Back to top ↑</a></footer>
+  </body>
+</html>
